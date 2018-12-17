@@ -133,15 +133,3 @@ body {
   cursor: pointer;
   margin: 12px 0;
 }
-.signup {
-  margin: auto;
-  padding: auto;
-  padding: 600px;
-  position: fixed;
-}
-.login-in {
-  margin: auto;
-  padding: 575px;
-  padding: auto;
-  position: fixed;
-}
