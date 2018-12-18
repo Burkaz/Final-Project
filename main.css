@@ -142,3 +142,36 @@
   height: 120px;
   margin: 60px;
 }
+.header {
+padding: 0px;
+margin: 50px;
+height: auto;
+width: auto;
+background-color: #ddd;
+text-align:center;
+margin-top: 50px;
+}
+
+/* Pattern styles */
+.container {
+  display: table;
+  width: 100%;
+}
+.left-half {
+  background-color: #ddd;
+  position: absolute;
+  left: 0px;
+  width: 33.33%;
+  height: auto;
+}
+
+.right-half {
+  background-color: #ddd;
+  position: absolute;
+  right: 0px;
+  width: 33.33%;
+  height: auto;
+}
+.main-section {
+  text-align: center;
+}
