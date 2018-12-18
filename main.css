@@ -1,6 +1,6 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
 @import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
-@@import "https://fonts.googleapis.com/css?family=Average";
+@import "https://fonts.googleapis.com/css?family=Average";
 /* Font Family for all of Project */
 * { font-family: Average; }
 /* Navbar container */
@@ -138,7 +138,7 @@
 .pictures {
   float: left;
   width: 33.33%;
-  padding: 20px;
+  padding: 35px;
   height: 120px;
-  margin: 50px;
+  margin: 60px;
 }
