@@ -3,23 +3,20 @@
 
 <html lang="en"> <!-- Language of this -->
 <!-- Two style sheets, Linking to fonts/the main CSS file i am using -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="ContactForm.css">
 <link rel="stylesheet" href="main.css">
 
 
-<title>Games</title> <!-- only required tag in the Head section. Appears on the tab in your browser. -->
+<title> Contact Us </title> <!-- only required tag in the Head section. Appears on the tab in your browser. -->
 <!-- define encoding of the text -->
 <meta charset ="UTF-8" >
-<!-- Body Style Color, Shared throughout all pages -->
+<!-- Body Style Color, Shared throughout all pages | Dark Grey -->
 <style>
 body {
   background-color: #ddd;
 }
 </style>
 <!-- closes head section -->
-</head>
-
-<!-- Second section of the HTML program. Appears in the body of the broswer. -->
 <body>
   <!-- The navigation menu -->
   <div class="navbar">
@@ -40,14 +37,26 @@ body {
     <a href="signup.html" style="float:right"> Sign Up </a>
     <a href="login.html" style="float:right"> Log In </a>
   </div>
-<div class="games">
-
-
-
-
-
-
-
+  <!-- Contact Form, Submit 'real' forms. Place holder and won't submit to anything -->
+<div class="container">
+  <form id="contact" method="post">
+    <h3>Buy a Game!</h3>
+    <fieldset>
+      <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+    </fieldset>
+    <fieldset>
+      <input placeholder="Email address to Contact you to pay for the game" type="text" tabindex="2" >
+    </fieldset>
+    <fieldset>
+      <input placeholder="Which Game did you want to buy?" type="text" tabindex="3" >
+    </fieldset>
+    <fieldset>
+      <input placeholder="How will you be paying today? (Paypal, Mastercard, Visa, etc...?)" type="text" tabindex="4" >
+    </fieldset>
+    <fieldset>
+      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+    </fieldset>
+    </form>
 </div>
 </body>
-</html>
+</HTML>
